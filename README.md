@@ -5,6 +5,7 @@ Build a RESTful service that generates the round robin schedule for the PRO-Kaba
 - Maximum 2 matches per day are allowed
 - No team should play on consecutive days
 
+
 # ======== Solution =======
 
 # Step-1: Deploy PRO-Kabaddi Service WAR to Tomcat
@@ -16,3 +17,4 @@ Build a RESTful service that generates the round robin schedule for the PRO-Kaba
 # Step-2: Generate match schedule
 curl -H "Content-Type: application/json" -X GET http://localhost:8080/myretailstore-service/api/match/schedule?teamIds=1,2,3,4,5&startDate=20160218
 
+ 
